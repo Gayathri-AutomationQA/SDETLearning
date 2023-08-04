@@ -10,5 +10,5 @@ var arraySign = function(nums) {
         if(element===0)  return 0;                
     }
 
-    return  (negFlag) ? -1:1;
+    return  (negFlag) ? -1 : 1;
 }
