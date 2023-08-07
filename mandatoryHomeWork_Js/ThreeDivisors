@@ -1,0 +1,18 @@
+/**
+ * @param {number} n
+ * @return {boolean}
+ */
+var isThree = function(n) {
+    var counter = 1;
+    for(let i =2;i<=n;i++){
+        if(n%i==0){
+            counter++;
+            if(counter>3) break;
+        }
+    }
+    if(counter==3){
+        return true;
+    }else{
+        return false;
+    }
+};
