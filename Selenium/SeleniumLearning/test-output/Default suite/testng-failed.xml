@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.TC1_SearchBookAtomicHabit">
+      <class name="tests.MissingNumber">
         <methods>
-          <include name="SearchBookAtomicHabit"/>
-          <include name="launch"/>
-          <include name="tearDown"/>
-          <include name="readProperties"/>
+          <include name="Test1"/>
         </methods>
-      </class> <!-- tests.TC1_SearchBookAtomicHabit -->
+      </class> <!-- tests.MissingNumber -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
