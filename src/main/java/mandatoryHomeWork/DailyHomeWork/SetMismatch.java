@@ -22,12 +22,6 @@ public class SetMismatch {
       // 3.Do you know the solution or else ask for hint? Yes
     // 4.Do you have any alternate approaches? find the best appraoch? No
     // 5.Write Pseudo code in paper
-        /**
-        	1. iterate 1 to n
-        	2. Check for contains of i
-        	3. 
-        	3.
-	 */
     // 6.Dry run the pseudo code with prepared Test Data
     // 7.Write the code on paper
     // 8.Check for complie time errors
@@ -36,7 +30,7 @@ public class SetMismatch {
     // 11.Optimise the code
 
     public int[] findErrorNums(int[] nums) {
-        int[] out = new int[10000];
+        int[] out = new int[20000];
         int[] outFinal = new int[2];
         for (int i = 0; i < nums.length ; i++) {
             out[nums[i]]++;
