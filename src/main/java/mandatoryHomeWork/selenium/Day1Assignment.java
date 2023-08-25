@@ -1,4 +1,4 @@
-package com.sample;
+package mandatoryHomeWork.selenium;
 
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
