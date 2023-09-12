@@ -1,0 +1,12 @@
+package JiraAPI;
+
+import org.testng.annotations.Test;
+
+public class DeleteBug extends BaseClass{
+	
+	@Test
+	public void delete() {
+		
+	}
+
+}

@@ -1,0 +1,38 @@
+Setting up JDK + IDE 
+incase anyone need it
+
+Here is the list of pre-program assignments to 
+
+PLEASE READ COMPLETELY AND FOLLOW EACH ACTIVITY CAREFULLY
+
+	If you follow our guidelines sequentially, you will be successful with pre-program assignments in less than 30 minutes without anyone's assistance. 
+
+	If you have issues with any of these activities, our video @ https://www.youtube.com/watch?v=4qypnfygfKo will help you to carry on your installation process. 
+
+	If you are uncomfortable with the video, you can also read the document at https://tinyurl.com/SeleniumSWInstall before you post your questions in the WhatsApp sub-group.
+
+1) List of Software Installations and downloads to be done:  
+
+	Java JDK (Installation required) 
+	Eclipse (Download and Run)
+	Create Maven Project and add Dependencies in Eclipse
+
+2) Resources to Support Software Installations:  
+
+1.	Download the required software available at https://tinyurl.com/SeleniumSws  (Select Software folder and download to your local, Download only the required SW )
+
+2.	Please go through the link for installation support in document form.
+https://tinyurl.com/SeleniumSWInstall
+
+3.	Please go through the link for installation support in the audio-video form.
+https://www.youtube.com/watch?v=4qypnfygfKo
+
+4. Install Xpath Finder 
+Ruto-Chrome
+- Go to Google Chrome browser.
+- Navigate to Link: 
+http://tiny.cc/RutoChrome
+- Click Add to Chrome
+Note: In the following pop-up, click Add extension
+
+Note: All the above have been documented well at https://selenium-support.testleaf.com in detail.

@@ -1,0 +1,19 @@
+package JiraAPI;
+
+import org.testng.annotations.BeforeMethod;
+
+import io.restassured.RestAssured;
+
+public class BaseClass {
+	//			public static String sys_ID;
+
+	@BeforeMethod
+	public void setUp() {
+		// Set Endpoint
+		RestAssured.baseURI="https://testjirafeb2023.atlassian.net/";
+
+		// Set Authentication
+		RestAssured.authentication=RestAssured.basic("admin", "d-J+lC2Hk7Aj");
+
+	}
+}

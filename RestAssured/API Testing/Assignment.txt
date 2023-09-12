@@ -1,0 +1,38 @@
+CRUD operations in Jira (Create, Read, Update and Delete issue in Jira)
+
+
+EndPoint Url-https://testjirafeb2023.atlassian.net/rest/api/2/issue/
+
+Request Body to add Subtask:
+{
+    "fields": {
+        "project": {
+            "key": "TES"
+        },
+        "parent": {
+            "key": "TES-1654" 
+        },
+        "summary": "Sub-task of TES-1654",
+        "description": "Sub Task creation for the created Bug",
+        "issuetype": {
+            "id": "10010"
+        }
+    }
+}
+
+
+Steps to get the Parent key and Issue Type ID for creating sub task
+
+1) On creating a issue with the api -https://testjirafeb2023.atlassian.net/rest/api/2/issue/ , in the response you will have a key (which is the parent ID)
+
+2) Execute the API -https://testjirafeb2023.atlassian.net/rest/api/2/issuetype
+
+In the response you can find the IssueType ID
+
+3) Pass both Parent key and IssueTyoe ID to create subtask
+
+ "parent": {
+            "key": "TES-1654" 
+        }
+"issuetype": {
+            "id": "10010"

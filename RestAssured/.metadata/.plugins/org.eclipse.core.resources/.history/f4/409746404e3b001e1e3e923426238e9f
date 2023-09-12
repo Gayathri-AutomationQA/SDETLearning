@@ -1,0 +1,14 @@
+package JiraAPI;
+
+import org.testng.annotations.Test;
+
+public class DeleteBug extends BaseClass{
+	
+	@Test(dependsOnMethods = "JiraAPI.CreateBug.create")
+	public void delete() {
+		
+		
+		
+	}
+
+}
