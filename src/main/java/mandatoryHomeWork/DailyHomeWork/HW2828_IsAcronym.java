@@ -1,6 +1,6 @@
 package mandatoryHomeWork.DailyHomeWork;
 
-import java.awt.List;
+import java.util.List;
 
 public class HW2828_IsAcronym {
 	public boolean isAcronym(List<String> words, String s) {
