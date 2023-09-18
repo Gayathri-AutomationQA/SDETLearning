@@ -14,14 +14,16 @@ public class ReverseString {
 	    for (int i = cs.length() - 1; i >= 0; i--) {
 	        output.append(cs.charAt(i));
 	    }
+	    
+	    System.out.println(output.toString());
+
 	    return output.toString();
-
+	    
 	}
-
 	
 	
-
-
+	
+	
 	@Test
 	public void Test1() {	
 		String actual = reverseString("");

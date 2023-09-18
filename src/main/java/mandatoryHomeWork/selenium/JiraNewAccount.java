@@ -1,4 +1,4 @@
-package jira;
+package mandatoryHomeWork.selenium;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
