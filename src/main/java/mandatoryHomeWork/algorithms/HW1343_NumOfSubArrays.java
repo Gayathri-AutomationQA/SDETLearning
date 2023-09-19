@@ -1,0 +1,28 @@
+package mandatoryHomeWork.algorithms;
+
+public class HW1343_NumOfSubArrays {
+	
+	//Technique : Sliding Window
+	//Time Complexity : O[N]
+	//Space Complexity : O[1]
+	
+	 public int numOfSubarrays(int[] arr, int k, int threshold) {
+
+	        int pointer = 0;
+	        int subArrayCount = 0;
+	        int sum = 0;
+	        while(pointer<k) {
+	            sum += arr[pointer++];
+	        }
+	        if(sum/k>=threshold) subArrayCount++;
+	        pointer = 1;
+	        while(pointer<arr.length-k+1){
+	            sum = sum - arr[pointer-1]+arr[pointer+k-1];
+	            if(sum/k>=threshold) subArrayCount++;
+	            pointer++;
+	        }
+	        return subArrayCount;
+	        
+	    }
+
+}

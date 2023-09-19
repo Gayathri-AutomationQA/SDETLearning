@@ -1,4 +1,4 @@
-package mandatoryHomeWork.algorithmsTwoPointers;
+package mandatoryHomeWork.algorithms;
 
 import org.junit.Assert;
 import org.testng.annotations.Test;
