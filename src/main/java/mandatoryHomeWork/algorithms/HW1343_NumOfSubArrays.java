@@ -24,5 +24,5 @@ public class HW1343_NumOfSubArrays {
 	        return subArrayCount;
 	        
 	    }
-
+	 	
 }
