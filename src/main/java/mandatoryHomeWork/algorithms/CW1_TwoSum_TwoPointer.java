@@ -1,6 +1,7 @@
 package mandatoryHomeWork.algorithms;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.testng.annotations.Test;
@@ -9,6 +10,7 @@ import org.testng.annotations.Test;
 public class CW1_TwoSum_TwoPointer {
 	
 	public int[] twoSum(int[] nums, int k) {
+		
 		
 		int left = 0 ; int right = left+1;
 		int[] out = new int[2]; int sum =0;
