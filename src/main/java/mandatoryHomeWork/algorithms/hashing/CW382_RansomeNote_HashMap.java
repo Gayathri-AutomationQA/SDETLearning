@@ -1,4 +1,4 @@
-package mandatoryHomeWork.algorithms;
+package mandatoryHomeWork.algorithms.hashing;
 
 import java.util.HashMap;
 import java.util.Map;
