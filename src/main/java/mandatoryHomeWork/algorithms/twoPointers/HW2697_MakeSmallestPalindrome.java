@@ -1,4 +1,4 @@
-package mandatoryHomeWork.algorithms;
+package mandatoryHomeWork.algorithms.twoPointers;
 
 public class HW2697_MakeSmallestPalindrome {
 

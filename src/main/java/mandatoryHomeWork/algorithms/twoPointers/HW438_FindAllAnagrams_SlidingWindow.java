@@ -1,4 +1,4 @@
-package mandatoryHomeWork.algorithms;
+package mandatoryHomeWork.algorithms.twoPointers;
 
 import java.util.ArrayList;
 import java.util.List;

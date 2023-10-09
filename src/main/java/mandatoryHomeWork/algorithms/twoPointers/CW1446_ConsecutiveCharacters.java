@@ -1,4 +1,4 @@
-package mandatoryHomeWork.algorithms;
+package mandatoryHomeWork.algorithms.twoPointers;
 
 public class CW1446_ConsecutiveCharacters {
     public int maxPower(String s) {

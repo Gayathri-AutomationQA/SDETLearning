@@ -1,4 +1,4 @@
-package mandatoryHomeWork.algorithms;
+package mandatoryHomeWork.algorithms.twoPointers;
 import org.testng.annotations.Test;
 
 public class CW_FindAllLowerCaseAlphaIsPresent_ASCII {
