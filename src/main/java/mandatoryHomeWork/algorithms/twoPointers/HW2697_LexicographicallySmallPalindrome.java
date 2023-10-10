@@ -1,0 +1,22 @@
+package mandatoryHomeWork.algorithms.twoPointers;
+
+public class HW2697_LexicographicallySmallPalindrome {
+
+	public String makeSmallestPalindrome(String s) {
+		char[] output = s.toCharArray();
+		int left =0, right = output.length-1;
+
+		while(left<right){
+			if(output[right]<output[left]){
+				output[left] = output[right];
+			}
+			if(output[left]<output[right]){
+				output[right] = output[left];
+			}
+			left++;
+			right--;
+		}
+		return new String(output);
+	}
+
+}
