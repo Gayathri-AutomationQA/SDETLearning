@@ -16,18 +16,24 @@ public class HW203_RemoveLL {
 		ListNode current = head;
 		ListNode previous = null;
 
-		while(current!=null && current.next!=null){
-			System.out.println(current.val);
+		while(current!=null){
 			if(current.val == val){
-				if(previous == null){
-					head = head.next;
+				if(current == head) {
+					head= head.next;
+					current = head;
+				}else if(current.next==null){
+					previous.next = null;
+					break;
 				}else{
 					previous.next = current.next;
+					current = current.next;
 				}
 
+			}else{
+				previous= current;
+				current = current.next;
 			}
-			previous = current;
-			current = current.next;
+
 		}
 		return head;
 	}
